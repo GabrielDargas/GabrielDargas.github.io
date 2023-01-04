@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-family: 'IBM Plex Sans', presicav, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.centralizar{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 1vh auto;
+    width: 30%;
+}
+
+.social img{
+    width: 4vh;
+}
+
+.link-tree{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.link-tree li{
+    margin: 2vh;
+}
+
+.link-tree li a{
+    display: block;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 0.1vh solid black;
+    border-radius: 4px;
+    padding: 1vh;
+}
+
+.link-tree li img{
+    display: inline;
+    width: 33%;
+    margin: 0;
+}
