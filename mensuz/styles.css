@@ -1,16 +1,48 @@
-body{
+*{
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header{
-    border-bottom: 1px solid black;
+.header{
+    background-color: #000;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+
 }
 
-header img{
-    width: 08%;
+.header nav a{
+    vertical-align: middle;
+    font-family: 'IBM Plex Sans', presicav, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 2em;
+    margin-left: 5vh;
+    color: #FFF;
+}
+
+.header nav a:hover{
+    color: #1bdd72;
+} 
+
+
+.header img{
+    width: 06%;
     padding: 0;
     margin: 0.6vh 2vh;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: #000;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    padding: 0.5% 0 1% 1%;
+    font-family: 'IBM Plex Sans', presicav, sans-serif;
 }
